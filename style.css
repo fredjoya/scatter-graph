@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#legend {
+  margin-top: 5px;
+  color: rgb(56, 58, 74);
+  font-size: 18px;
+  text-align: center;
+}
+
+#title {
+  font-size: 26px;
+}
+
+#tooltip {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  margin-top: 5px;
+  color: rgb(56, 58, 74);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
